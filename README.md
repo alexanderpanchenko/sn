@@ -3,7 +3,9 @@ sn
 
 Semantic Neighbors -- a dataset for semantic similarity measure evaluation
 
-This dataset stems from the work of (Baroni and Lenci, 2011) on the BLESS dataset (Baroni and Lenci Evaluation of Semantic Spaces). This dataset contains a set of semantic relations, such as <agitator, syn, activist>,  <hawk , syn, predator>, <gun, syn, weapon>, <dishwasher, syn, freezer>, <lecture, random, clown>, <driver, random, stone>, and <computer, random,river>. Each **target** term (the first element in the tuple) has roughly the same number of meaningful and random **relatum** terms (the third element in the tuple). 
+This dataset stems from the work of (Baroni and Lenci, 2011) on the BLESS dataset (Baroni and Lenci Evaluation of Semantic Spaces). It contains a set of semantic relations, such as <agitator, syn, activist>,  <hawk , syn, predator>, <gun, syn, weapon>, <dishwasher, syn, freezer>, <lecture, random, clown>, <driver, random, stone>, and <computer, random,river>. Each **target** term (the first element in the tuple) has roughly the same number of meaningful and random **relatum** terms (the third element in the tuple). 
+
+The dataset may be used for evaluation/training of semantic similarity measures (see below).
 
 We built the SN (Semantic Neighbors) dataset in order to complement the BLESS which contains no synonyms. SN relates 462 target nouns to 5,910 relatum words with 14,682  relations (7,341 synonyms and 7,341 are random). The SN contains synonyms coming from three sources: WordNet 3.0 (Miller, 1995), Roget's thesaurus (Kennedy and Szpakowichz, 2008), and a free synonyms database (http://synonyms-database.downloadaces.com/). The relations in the dataset were validated manually.    
 
