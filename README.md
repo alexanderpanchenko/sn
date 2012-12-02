@@ -3,7 +3,7 @@ sn
 
 Semantic Neighbors -- a dataset for semantic similarity measure evaluation
 
-This dataset stems from the work of (Baroni and Lenci, 2011) on the BLESS dataset (Baroni and Lenci Evaluation of Semantic Spaces). It contains a set of semantic relations, such as <agitator, syn, activist>,  <hawk , syn, predator>, <gun, syn, weapon>, <dishwasher, syn, freezer>, <lecture, random, clown>, <driver, random, stone>, and <computer, random,river>. Each **target** term (the first element in the tuple) has roughly the same number of meaningful and random **relatum** terms (the third element in the tuple). 
+This dataset stems from the work of (Baroni and Lenci, 2011) on the BLESS dataset (Baroni and Lenci Evaluation of Semantic Spaces). It contains a set of semantic relations, such as (agitator, syn, activist),  (hawk , syn, predator), (gun, syn, weapon), (dishwasher, syn, freezer), (lecture, random, clown), (driver, random, stone), and (computer, random,river). Each **target** term (the first element in the tuple) has roughly the same number of meaningful and random **relatum** terms (the third element in the tuple). 
 
 The dataset may be used for evaluation/training of semantic similarity measures (see below).
 
